@@ -53,7 +53,6 @@ def above_cutoff(seq_dict, cutoff):
     length_calculation = 0 #To store the sum of the lengths of the selected sequences
 
     for key in seq_dict:
-        print key
         split_id = key.split(' ')
         coverage = split_id[2]
         if float(coverage) >= cutoff:
