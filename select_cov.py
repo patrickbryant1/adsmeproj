@@ -62,7 +62,7 @@ def above_cutoff(seq_dict, cutoff):
             continue
 
     #The total length of the selected sequences
-    print length_calculation
+    print length_calculation #Remove when only wanting fasta
     
 #Main program
 
